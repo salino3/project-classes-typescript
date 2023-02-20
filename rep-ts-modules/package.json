@@ -1,0 +1,19 @@
+{
+  "name": "rep-ts-modules",
+  "version": "1.0.0",
+  "description": "modules ts classes",
+  "scripts": {
+    "start": "rimraf dist && parcel src/index.html --open",
+    "test": "test"
+  },
+  "author": "salino3",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "rimraf": "^4.1.2"
+  },
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

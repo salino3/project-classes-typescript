@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["src/SCSS/_base.scss","src/SCSS/styles.scss"],"sourcesContent":["body{\r\n  background: black; color: grey;\r\n}","@import url('./_base.scss');"],"names":[],"version":3,"file":"index.00457232.css.map","sourceRoot":"/__parcel_source_root/"}
