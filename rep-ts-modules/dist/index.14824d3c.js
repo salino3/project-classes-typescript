@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"aVVxr":[function(require,module,exports) {
+})({"aB1Q5":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -590,7 +590,7 @@ class Car {
         this._brand = newBrand;
     }
     ShowCar() {
-        console.log(`This ${this.brand} car has ${this.wheels} wheel${this.wheels ? "s" : ""}, and is ${this.color} color `);
+        console.log(`This ${this.brand} car has ${this.wheels} wheel${this.wheels != 1 ? "s" : ""}, and is ${this.color} color `);
     }
     WhatsUp(answer) {
         console.log("Do you have a deflated wheel?");
@@ -637,6 +637,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["aVVxr","80jw2"], "80jw2", "parcelRequire690c")
+},{}]},["aB1Q5","80jw2"], "80jw2", "parcelRequire690c")
 
 //# sourceMappingURL=index.14824d3c.js.map

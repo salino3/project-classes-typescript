@@ -42,7 +42,7 @@ export class Car implements ICar {
   public ShowCar() {
     console.log(
       `This ${this.brand} car has ${this.wheels} wheel${
-        this.wheels ? "s" : ""
+        this.wheels != 1 ? "s" : ""
       }, and is ${this.color} color `
     );
   }

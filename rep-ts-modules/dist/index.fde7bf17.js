@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"aLNyR":[function(require,module,exports) {
+})({"3wKYB":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -583,6 +583,6 @@ class RaceCar extends (0, _page2.Car) {
 }
 let race1 = new RaceCar("yellow", "Alfa Romeo", 300, 2.9);
 
-},{"./Page2":"80jw2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["aLNyR","dcCRT"], "dcCRT", "parcelRequire690c")
+},{"./Page2":"80jw2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["3wKYB","dcCRT"], "dcCRT", "parcelRequire690c")
 
 //# sourceMappingURL=index.fde7bf17.js.map

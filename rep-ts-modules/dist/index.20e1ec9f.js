@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"d0HGu":[function(require,module,exports) {
+})({"gWnCx":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -616,7 +616,7 @@ class Car {
         this._brand = newBrand;
     }
     ShowCar() {
-        console.log(`This ${this.brand} car has ${this.wheels} wheel${this.wheels ? "s" : ""}, and is ${this.color} color `);
+        console.log(`This ${this.brand} car has ${this.wheels} wheel${this.wheels != 1 ? "s" : ""}, and is ${this.color} color `);
     }
     WhatsUp(answer) {
         console.log("Do you have a deflated wheel?");
@@ -784,6 +784,6 @@ class RaceCar extends (0, _page2.Car) {
 }
 let race1 = new RaceCar("yellow", "Alfa Romeo", 300, 2.9);
 
-},{"./Page2":"80jw2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["d0HGu","frsvN"], "frsvN", "parcelRequire690c")
+},{"./Page2":"80jw2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["gWnCx","frsvN"], "frsvN", "parcelRequire690c")
 
 //# sourceMappingURL=index.20e1ec9f.js.map

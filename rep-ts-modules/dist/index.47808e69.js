@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"9Jq54":[function(require,module,exports) {
+})({"8xuqY":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -650,6 +650,6 @@ class newModelAF extends AlfaRomeo {
 }
 let newModelAF1 = new newModelAF("White", 5, 5, "X25", 30.000, true);
 
-},{"./Page2":"80jw2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["9Jq54","1Fzx5"], "1Fzx5", "parcelRequire690c")
+},{"./Page2":"80jw2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["8xuqY","1Fzx5"], "1Fzx5", "parcelRequire690c")
 
 //# sourceMappingURL=index.47808e69.js.map
