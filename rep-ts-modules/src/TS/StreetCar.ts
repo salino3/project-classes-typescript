@@ -91,11 +91,11 @@ class AlfaRomeo extends StreetCar implements ICar {
   }
   // En ese caso, el método protegido en la clase hija restringirá el acceso al método 
   // sobrescrito a la clase hija y sus subclases.
-  // parece que los override deben ser public por no tener conflictos con cllases hijas
+  // parece que los override deben ser public por no tener conflictos con classes hijas
   public override ShowCar() {
     console.log(
       `This ${this.brand} car has ${this.wheels} wheel${
-        this.wheels ? "s" : ""
+        this.wheels != 1 ? "s" : ""
       }, the model is ${this.model} and is ${this.color} color `
     );
   }
